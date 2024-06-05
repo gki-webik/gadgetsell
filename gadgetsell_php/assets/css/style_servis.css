@@ -1,0 +1,111 @@
+h2 {
+    font-weight: 600;
+    font-size: clamp(1.8rem, 2.3vw, 2.8rem);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 45px;
+}
+h3 {
+    font-weight: 600;
+    font-size: clamp(1.3rem, 1.6vw, 2rem);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 45px;
+}
+.main_box_big {
+    line-height: 25px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.div__1 img {
+    max-width: 500px;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.div__1 {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div__2 {
+    background-color: #2b2f35;
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 150px;
+    padding: 20px;
+}
+@media screen and (max-width: 790px) {
+    .div__2 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .div__2 button{
+        width: 100% !important;
+    }
+    h3 {
+        line-height: 30px;
+    }
+}
+.div__2 button{
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0271e3;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+.div__1 div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 450px;
+}
+@media screen and (max-width: 1009px){
+    .div__1 {
+        display: flex;
+        justify-content: center;
+    }
+    .div__1 div {
+        max-width: 1050px;
+    }
+    .div__1 img {
+        max-width: 1000px;
+        max-height: 1000px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+.div__1 div p{
+    padding: 0;
+    margin: 0;
+}
+.div__1 div button{
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: #0271e3;
+    color: white;
+    border: none;
+    width: 240px;
+    height: 40px;
+}

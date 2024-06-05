@@ -1,0 +1,116 @@
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.info_block {
+    line-height: 27px;
+    font-weight: 400;
+}
+.info_block:not(:last-child){
+    margin-bottom: 30px;
+}
+.info_block.gray {
+    padding: 40px;
+    background-color: #f9fafc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.info_block a {
+    color: var(--a-color-blue);
+}
+ul {
+    padding-left: 15px;
+}
+@media screen and (max-width: 700px) {
+    .info_block.gray {
+        padding: 20px !important;
+    }
+}
+.block_constructor_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block_constructor {
+    max-width: 1200px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.block_constructor_box__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block_constructor__2 {
+    max-width: 1200px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.block_constructor__2 h2 {
+    font-size: 48px;
+}
+.block_constructor__2 h3 {
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 0;
+}
+.block_constructor__2 button {
+    font-size: 17px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 250px;
+    border-radius: 100px;
+    border: none;
+    background-color: #6eaff3;
+    color: white;
+}
+.block_constructor__2 button.active {
+    font-size: 17px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 250px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0271e3;
+    color: white;
+}
+label * {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Times, "Times New Roman", serif;
+}
+label select {
+    padding: 17px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+    box-shadow: inset 0px 6px 16px 0px #afafaf;
+    opacity: 0.5;
+    min-width: 250px;
+    height: 55px;
+}
+label select.active {
+    border-left: 13px solid blue;
+}
+label select.disabled {
+    opacity: 0.3;
+}

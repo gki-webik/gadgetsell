@@ -1,0 +1,25 @@
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.info_block {
+    line-height: 27px;
+    font-weight: 400;
+}
+.info_block:not(:last-child){
+    margin-bottom: 30px;
+}
+.info_block.gray {
+    padding: 40px;
+    background-color: #f9fafc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+ul {
+    padding-left: 15px;
+}
+@media screen and (max-width: 700px) {
+    .info_block.gray {
+        padding: 20px !important;
+    }
+}
